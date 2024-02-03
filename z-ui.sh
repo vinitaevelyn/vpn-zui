@@ -349,7 +349,7 @@ enable_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/z-ui -N --no-check-certificate https://github.com/ozipoetra/z-ui/raw/main/z-ui.sh
+    wget -O /usr/bin/z-ui -N --no-check-certificate https://github.com/vinitaevelyn/vpn-zui/raw/main/z-ui.sh
     if [[ $? != 0 ]]; then
         echo ""
         LOGE "Failed to download script, Please check whether the machine can connect Github"
