@@ -150,7 +150,7 @@ install_z-ui() {
     cd z-ui
     chmod +x z-ui bin/ozip-linux-$(arch3xui)
     cp -f z-ui.service /etc/systemd/system/
-    wget --no-check-certificate -O /usr/bin/z-ui https://raw.githubusercontent.com/ozipoetra/z-ui/main/z-ui.sh
+    wget --no-check-certificate -O /usr/bin/z-ui https://raw.githubusercontent.com/vinitaevelyn/vpn-zui/main/z-ui.sh
     chmod +x /usr/local/z-ui/z-ui.sh
     chmod +x /usr/bin/z-ui
     config_after_install
